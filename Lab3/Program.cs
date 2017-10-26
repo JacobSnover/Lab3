@@ -44,7 +44,8 @@ namespace Lab3
                     }
                     else if (test == "n" || test == "no")
                     {
-
+                        Console.WriteLine("Bye");
+                        Console.ReadLine();
                         Environment.Exit(1);
                     }
 
